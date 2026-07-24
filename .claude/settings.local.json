@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Artifact",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-kimjaemin-Desktop-----/c416239f-24a8-47db-b7bf-906f1414d89c/scratchpad/img)",
+      "Bash(curl -sL \"https://static.wixstatic.com/media/6d5435_200a762b8afa47bebd687e0235c445dc~mv2.png/v1/fill/w_1200,h_1500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6d5435_200a762b8afa47bebd687e0235c445dc~mv2.png\" -o a1.jpg)",
+      "Bash(curl -sL \"https://static.wixstatic.com/media/6d5435_3ea4fe47c92a418d9ddcdef52ba577bd~mv2.png/v1/fill/w_1200,h_1500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6d5435_3ea4fe47c92a418d9ddcdef52ba577bd~mv2.png\" -o a2.jpg)",
+      "Bash(curl -sL \"https://static.wixstatic.com/media/6d5435_a82e422b8e154f6bb87ffdf4f345d638~mv2.png/v1/fill/w_1200,h_1500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ludenstopia02_HEIC.png\" -o a3.jpg)",
+      "Bash(curl -sL \"https://static.wixstatic.com/media/6d5435_8713cff3132645e29da6cd9aefac5dc9~mv2.png/v1/fill/w_1200,h_1500,al_c,lg_1,q_85,enc_avif,quality_auto/6d5435_8713cff3132645e29da6cd9aefac5dc9~mv2.png\" -o a4.jpg)",
+      "Bash(mkdir -p \"/Users/kimjaemin/Desktop/홈페이지/images\")",
+      "Bash(sips -s format jpeg -s formatOptions 80 -Z 1600 a1.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/cheongju-01.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 80 -Z 1600 a2.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/cheongju-02.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 80 -Z 1600 a3.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/ludenstopia-gwangju.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 80 -Z 1600 a4.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/fondazione-bologna.jpg\")",
+      "Bash(python3)",
+      "Bash(sips -s format jpeg -s formatOptions 82 -Z 1600 s1.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/paphos2-seosomun-01.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 82 -Z 1600 s2.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/paphos2-seosomun-02.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 82 -Z 1600 s3.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/paphos2-seosomun-03.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 82 -Z 1600 s4.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/paphos2-seosomun-04.jpg\")",
+      "Bash(sips -s format jpeg -s formatOptions 82 -Z 1600 k1.jpg --out \"/Users/kimjaemin/Desktop/홈페이지/images/paphos2-kote-01.jpg\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(python3 -c \"import json; json.load\\(open\\('/Users/kimjaemin/Desktop/홈페이지/.claude/settings.local.json'\\)\\)\")"
+    ]
+  }
+}
